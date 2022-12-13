@@ -10,6 +10,13 @@ for i in int_list:
     float_list.append(float(i))
 print(float_list)
 
+float_list1 = []
+o = 0
+while len(int_list)>o:
+    o = o + 1
+    float_list1.append(float(o))
+print(float_list1)
+
 
 array = [1,2,3,4,5,6,7,8,9,10]
 print(id(array))
@@ -25,8 +32,8 @@ fib1 = fib2 = 1
  
 n = int(input("Введите число: "))
 fib1 = fib2 = 1
-print(fib1, fib2, end=' ')
+print(fib1, fib2)
  
 for i in range(2, n):
     fib1, fib2 = fib2, fib1 + fib2
-    print(fib2, end=' ')
+print(fib2, end=' ')

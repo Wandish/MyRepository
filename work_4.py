@@ -9,6 +9,7 @@ vvod = int(input("Введите число: "))
 factorial = 1
  
 for i in range(2, vvod+1):
+    print(factorial)
     factorial *= i
  
 print(factorial)
